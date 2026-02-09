@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.DoCDatasets" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <!-- For pre Android 12 devices, icon is plain black OR white,
+        depending on system's dark mode. See also values-night -->
+    <style name="Theme.DoCDatasets.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/splash_logo_legacy</item>
+        <item name="postSplashScreenTheme">@style/Theme.DoCDatasets</item>
+    </style>
+
+</resources>

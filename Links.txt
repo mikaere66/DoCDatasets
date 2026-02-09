@@ -1,0 +1,9 @@
+
+https://fx.wtf/
+
+https://stackoverflow.com/questions/31667230/how-to-get-the-response-url-from-retrofit
+
+https://kupu.maori.nz/about/macrons-keyboard-setup
+
+https://kotlinlang.org/api/core/kotlin-stdlib/kotlin.io.path/delete-if-exists.html
+https://kotlinlang.org/api/core/kotlin-stdlib/kotlin.io.path/-path.html

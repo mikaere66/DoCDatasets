@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DoC Datasets</string>
+    <string name="app_alias">DoC Dataset</string>
+    <plurals name="app_alias">
+        <item quantity="one">@string/app_alias</item>
+        <item quantity="other">@string/app_name</item>
+    </plurals>
+    <!-- Refer FeatureListScreen -->
+    <string name="app_alias_filtered">DoC Dataset (Filtered)</string>
+
+    <string name="back_button_desc">Back</string>
+
+    <string name="bottom_sheet_dismiss_desc">Dismiss</string>
+
+    <string name="common_description"><![CDATA[<B>Description</B>: %s]]></string>
+
+    <string name="dataset_aath_url">Further information on AATH blocks, and
+        how to apply for permits, is available on the DoC website:</string>
+    <string name="dataset_cms1_url">For more information on
+        Conservation Management Strategies, visit:</string>
+    <string name="dataset_cms2_url">The air access zones defined in
+        this dataset need to be taken in context of the relevant
+        Conservation Management Strategy document. For more information
+        on Conservation Management Strategies, visit:</string>
+    <string name="dataset_invalid">Request invalid</string>
+    <!-- Note string for item count : same to subtitles -->
+    <string name="dataset_list_item_desc"><![CDATA[Data: <B>%s</B>]]></string>
+    <string name="dataset_list_item"><![CDATA[Data: <B>%s</B> (%s)]]></string>
+    <string name="dataset_not_found_message"><![CDATA[<B>%s</B>
+        dataset not found</B>]]></string>
+    <string name="dataset_not_found_title">Dataset not found</string>
+    <string name="dataset_map_subtitle">Map: %s</string>
+    <!-- For both subtitles, numbers are formatted
+         with comma(s), and returned as string -->
+    <string name="dataset_subtitle">%s (%s)</string>
+    <string name="dataset_subtitle_filtered">%s (%s/%s)</string>
+    <string name="dataset_tfi_url">The full report
+        is available here (40 pages):</string>
+    <string name="dataset_waro_url">Further information on WARO areas, and
+        how to apply for permits, is available on the DoC website:</string>
+
+    <string name="datatype_categories">Dataset categories (%d)</string>
+    <string name="datatype_icon_desc">Dataset icon</string>
+    <string name="datatype_list_item"><![CDATA[Category: <B>%s</B> (%d)]]></string>
+
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_confirm">OK</string>
+
+    <string name="download_desc">Download complete</string>
+    <string name="download_done">[ End of List ]</string>
+    <string name="download_more">Download more</string>
+
+    <string name="feature_aath_restriction">Restrictions</string>
+    <!-- Not used for plurals as such -->
+    <!-- *Asterix indicates exception -->
+    <plurals name="feature_aath_restriction">
+        <item quantity="one">* %1$s</item>
+        <item quantity="other">%1$s</item>
+    </plurals>
+    <!-- Format used by iterator -->
+    <string name="feature_format"><![CDATA[<B>%1$s</B>: %2$s]]></string>
+    <!-- Formatted with comma(s) -->
+    <string name="feature_hectares">%s ha</string>
+
+    <string name="filter_header_text"><![CDATA[Filter list by <B>%s</B>]]></string>
+    <string name="filter_show_all">Show all Items</string>
+
+    <string name="image_campsite_desc">Campsite image</string>
+    <string name="image_hut_desc">Hut image</string>
+    <string name="image_load_error">Error loading image</string>
+    <string name="image_route_desc">Route image</string>
+    <string name="image_track_desc">Track image</string>
+
+    <string name="is_active_yes">Yes</string>
+    <string name="is_active_no">No</string>
+
+    <string name="loading_failed">Failed to load</string>
+    <string name="loading_from_file">Loading file &#8230;</string>
+    <string name="loading_from_doc">Downloading &#8230;</string>
+    <string name="loading_retry">Retry</string>
+
+    <string name="map_snippet_abundance">Abundance: %1$s (%2$s)</string>
+    <string name="map_snippet_format">%1$s\n%2$s</string>
+    <string name="map_snippet_hectares">Hectares: %1$d</string>
+    <string name="map_snippet_rank">Rank: %1$d</string>
+
+    <string name="menu_app_settings">App settings</string>
+    <string name="menu_clear_filters">Remove all list Filters</string>
+    <string name="menu_dataset_desc">Dataset full Description</string>
+    <string name="menu_filter_by">Filter list By &#8230;</string>
+    <string name="menu_map_filtered">View filtered on Map</string>
+    <string name="menu_map_not_avail">Multi map Disabled</string>
+    <string name="menu_reset_settings">Restore app Defaults</string>
+    <string name="menu_toggle_desc">Toggle menu</string>
+    <string name="menu_update_list">Update list from Cloud</string>
+    <string name="menu_zoom_both">Zoom New Zealand</string>
+    <plurals name="menu_zoom_markers">
+        <item quantity="one">Zoom current Marker</item>
+        <item quantity="other">Zoom current Markers</item>
+    </plurals>
+    <string name="menu_zoom_north">Zoom North Island</string>
+    <plurals name="menu_zoom_polygons">
+        <item quantity="one">Zoom current Polygon</item>
+        <item quantity="other">Zoom current Polygons</item>
+    </plurals>
+    <plurals name="menu_zoom_polylines">
+        <item quantity="one">Zoom current Polyline</item>
+        <item quantity="other">Zoom current Polylines</item>
+    </plurals>
+    <string name="menu_zoom_south">Zoom South Island</string>
+
+    <string name="setting_disable_popups">Disable popups on Map click</string>
+    <string name="setting_num_results_label">Select quantity</string>
+    <string name="setting_num_results_text">Number
+        of results to fetch each time</string>
+    <string name="settings_reset_message"><![CDATA[This action
+        will reset <B>all</B> current settings (including
+        filters) to the app default values]]></string>
+     <string name="setting_show_satellite_view">Show
+         satellite view on Maps</string>
+    <string name="settings_toast_done">Done!</string>
+
+    <string name="snack_bar_action_got_it">Got It</string>
+    <string name="snack_bar_long_press_for_descr">Long
+        press for Full description</string>
+
+    <string name="text_undefined">Undefined</string>
+
+</resources>

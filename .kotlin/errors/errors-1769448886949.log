@@ -1,0 +1,594 @@
+kotlin version: 2.3.0
+error message: org.jetbrains.kotlin.fir.pipeline.IrGenerationExtensionException: Back-end: Please report this problem https://kotl.in/issue
+/home/michael/AndroidProjects/MyProjects/Compose/DoCDatasets/app/src/main/java/com/michaelrmossman/docdatasets/state/DataSetListState.kt:9:1
+Problem with `@Serializable
+@StabilityInferred(parameters = 0)
+data class DataSetListState {
+  constructor(canDLMore: Boolean = false, dataset: DataSetEntity? = null, datasets: List<DataSetEntity> = emptyList<DataSetEntity>(), dataType: DataTypeKt = DataTypeKt(), dataTypes: List<DataTypeKt> = emptyList<DataTypeKt>(), feature: Feature? = null, features: List<Feature> = emptyList<Feature>(), featTotal: Int = 0, filter: Any? = null, filterBy: List<Any?> = emptyList<Any?>(), message: String? = null, numResult: Int = 0, uiState: DataSetUiState = Loading) /* primary */ {
+    super/*Any*/()
+    /* <init>() */
+
+  }
+
+  val canDLMore: Boolean
+    field = canDLMore
+    get
+
+  val dataset: DataSetEntity?
+    field = dataset
+    get
+
+  val datasets: List<DataSetEntity>
+    field = datasets
+    get
+
+  val dataType: DataTypeKt
+    field = dataType
+    get
+
+  val dataTypes: List<DataTypeKt>
+    field = dataTypes
+    get
+
+  val feature: Feature?
+    field = feature
+    get
+
+  val features: List<Feature>
+    field = features
+    get
+
+  val featTotal: Int
+    field = featTotal
+    get
+
+  @Contextual
+  val filter: Any?
+    field = filter
+    get
+
+  @Contextual
+  val filterBy: List<Any?>
+    field = filterBy
+    get
+
+  val message: String?
+    field = message
+    get
+
+  val numResult: Int
+    field = numResult
+    get
+
+  val uiState: DataSetUiState
+    field = uiState
+    get
+
+  companion object Companion {
+    private constructor() /* primary */ {
+      super/*Any*/()
+      /* <init>() */
+
+    }
+
+    fun serializer(): KSerializer<DataSetListState>
+
+    /* fake */ override operator fun equals(other: Any?): Boolean
+
+    /* fake */ override fun hashCode(): Int
+
+    /* fake */ override fun toString(): String
+
+  }
+
+  @Deprecated(message = "This synthesized declaration should not be used directly", level = DeprecationLevel.HIDDEN)
+  @StabilityInferred(parameters = 0)
+  object $serializer : GeneratedSerializer<DataSetListState> {
+    private constructor() /* primary */ {
+      super/*Any*/()
+      /* <init>() */
+
+    }
+
+    override fun serialize(encoder: Encoder, value: DataSetListState)
+
+    override fun deserialize(decoder: Decoder): DataSetListState
+
+    override val descriptor: SerialDescriptor
+      override get
+
+    override fun childSerializers(): Array<KSerializer<*>>
+
+    /* fake */ override fun typeParametersSerializers(): Array<KSerializer<*>>
+
+    /* fake */ override operator fun equals(other: Any?): Boolean
+
+    /* fake */ override fun hashCode(): Int
+
+    /* fake */ override fun toString(): String
+
+    /* static final field */ val $stable: Int = 8
+  }
+
+  operator fun component1(): Boolean {
+    return <this>.#canDLMore
+  }
+
+  operator fun component2(): DataSetEntity? {
+    return <this>.#dataset
+  }
+
+  operator fun component3(): List<DataSetEntity> {
+    return <this>.#datasets
+  }
+
+  operator fun component4(): DataTypeKt {
+    return <this>.#dataType
+  }
+
+  operator fun component5(): List<DataTypeKt> {
+    return <this>.#dataTypes
+  }
+
+  operator fun component6(): Feature? {
+    return <this>.#feature
+  }
+
+  operator fun component7(): List<Feature> {
+    return <this>.#features
+  }
+
+  operator fun component8(): Int {
+    return <this>.#featTotal
+  }
+
+  operator fun component9(): Any? {
+    return <this>.#filter
+  }
+
+  operator fun component10(): List<Any?> {
+    return <this>.#filterBy
+  }
+
+  operator fun component11(): String? {
+    return <this>.#message
+  }
+
+  operator fun component12(): Int {
+    return <this>.#numResult
+  }
+
+  operator fun component13(): DataSetUiState {
+    return <this>.#uiState
+  }
+
+  fun copy(canDLMore: Boolean = <this>.#canDLMore, dataset: DataSetEntity? = <this>.#dataset, datasets: List<DataSetEntity> = <this>.#datasets, dataType: DataTypeKt = <this>.#dataType, dataTypes: List<DataTypeKt> = <this>.#dataTypes, feature: Feature? = <this>.#feature, features: List<Feature> = <this>.#features, featTotal: Int = <this>.#featTotal, filter: Any? = <this>.#filter, filterBy: List<Any?> = <this>.#filterBy, message: String? = <this>.#message, numResult: Int = <this>.#numResult, uiState: DataSetUiState = <this>.#uiState): DataSetListState {
+    return DataSetListState(canDLMore = canDLMore, dataset = dataset, datasets = datasets, dataType = dataType, dataTypes = dataTypes, feature = feature, features = features, featTotal = featTotal, filter = filter, filterBy = filterBy, message = message, numResult = numResult, uiState = uiState)
+  }
+
+  override fun toString(): String {
+    return "DataSetListState(" + "canDLMore=" + <this>.#canDLMore + ", " + "dataset=" + <this>.#dataset + ", " + "datasets=" + <this>.#datasets + ", " + "dataType=" + <this>.#dataType + ", " + "dataTypes=" + <this>.#dataTypes + ", " + "feature=" + <this>.#feature + ", " + "features=" + <this>.#features + ", " + "featTotal=" + <this>.#featTotal + ", " + "filter=" + <this>.#filter + ", " + "filterBy=" + <this>.#filterBy + ", " + "message=" + <this>.#message + ", " + "numResult=" + <this>.#numResult + ", " + "uiState=" + <this>.#uiState + ")"
+  }
+
+  override fun hashCode(): Int {
+    var result: Int = <this>.#canDLMore.hashCode()
+    result = result.times(other = 31).plus(other = when {
+      EQEQ(arg0 = <this>.#dataset, arg1 = null) -> 0
+      else -> <this>.#dataset.hashCode()
+    })
+    result = result.times(other = 31).plus(other = <this>.#datasets.hashCode())
+    result = result.times(other = 31).plus(other = <this>.#dataType.hashCode())
+    result = result.times(other = 31).plus(other = <this>.#dataTypes.hashCode())
+    result = result.times(other = 31).plus(other = when {
+      EQEQ(arg0 = <this>.#feature, arg1 = null) -> 0
+      else -> <this>.#feature.hashCode()
+    })
+    result = result.times(other = 31).plus(other = <this>.#features.hashCode())
+    result = result.times(other = 31).plus(other = <this>.#featTotal.hashCode())
+    result = result.times(other = 31).plus(other = when {
+      EQEQ(arg0 = <this>.#filter, arg1 = null) -> 0
+      else -> <this>.#filter.hashCode()
+    })
+    result = result.times(other = 31).plus(other = <this>.#filterBy.hashCode())
+    result = result.times(other = 31).plus(other = when {
+      EQEQ(arg0 = <this>.#message, arg1 = null) -> 0
+      else -> <this>.#message.hashCode()
+    })
+    result = result.times(other = 31).plus(other = <this>.#numResult.hashCode())
+    result = result.times(other = 31).plus(other = <this>.#uiState.hashCode())
+    return result
+  }
+
+  override operator fun equals(other: Any?): Boolean {
+    when {
+      EQEQEQ(arg0 = <this>, arg1 = other) -> return true
+    }
+    when {
+      other !is DataSetListState -> return false
+    }
+    val tmp0_other_with_cast: DataSetListState = other /*as DataSetListState */
+    when {
+      EQEQ(arg0 = <this>.#canDLMore, arg1 = tmp0_other_with_cast.#canDLMore).not() -> return false
+    }
+    when {
+      EQEQ(arg0 = <this>.#dataset, arg1 = tmp0_other_with_cast.#dataset).not() -> return false
+    }
+    when {
+      EQEQ(arg0 = <this>.#datasets, arg1 = tmp0_other_with_cast.#datasets).not() -> return false
+    }
+    when {
+      EQEQ(arg0 = <this>.#dataType, arg1 = tmp0_other_with_cast.#dataType).not() -> return false
+    }
+    when {
+      EQEQ(arg0 = <this>.#dataTypes, arg1 = tmp0_other_with_cast.#dataTypes).not() -> return false
+    }
+    when {
+      EQEQ(arg0 = <this>.#feature, arg1 = tmp0_other_with_cast.#feature).not() -> return false
+    }
+    when {
+      EQEQ(arg0 = <this>.#features, arg1 = tmp0_other_with_cast.#features).not() -> return false
+    }
+    when {
+      EQEQ(arg0 = <this>.#featTotal, arg1 = tmp0_other_with_cast.#featTotal).not() -> return false
+    }
+    when {
+      EQEQ(arg0 = <this>.#filter, arg1 = tmp0_other_with_cast.#filter).not() -> return false
+    }
+    when {
+      EQEQ(arg0 = <this>.#filterBy, arg1 = tmp0_other_with_cast.#filterBy).not() -> return false
+    }
+    when {
+      EQEQ(arg0 = <this>.#message, arg1 = tmp0_other_with_cast.#message).not() -> return false
+    }
+    when {
+      EQEQ(arg0 = <this>.#numResult, arg1 = tmp0_other_with_cast.#numResult).not() -> return false
+    }
+    when {
+      EQEQ(arg0 = <this>.#uiState, arg1 = tmp0_other_with_cast.#uiState).not() -> return false
+    }
+    return true
+  }
+
+  /* static final field */ val $stable: Int = 8
+  @JvmStatic
+  internal /* static */ fun write$Self(self: DataSetListState, output: CompositeEncoder, serialDesc: SerialDescriptor)
+
+  internal constructor(seen0: Int, canDLMore: Boolean, dataset: DataSetEntity?, datasets: List<DataSetEntity>?, dataType: DataTypeKt?, dataTypes: List<DataTypeKt>?, feature: Feature?, features: List<Feature>?, featTotal: Int, filter: Any?, filterBy: List<Any?>?, message: String?, numResult: Int, uiState: DataSetUiState?, serializationConstructorMarker: SerializationConstructorMarker?)
+
+}
+
+`
+Details: kotlinx.serialization compiler plugin internal error: unable to transform declaration, see cause
+	at org.jetbrains.kotlin.fir.pipeline.Fir2IrPipeline.applyIrGenerationExtensions(convertToIr.kt:577)
+	at org.jetbrains.kotlin.fir.pipeline.Fir2IrPipeline.runActualizationPipeline(convertToIr.kt:279)
+	at org.jetbrains.kotlin.fir.pipeline.Fir2IrPipeline.convertToIrAndActualize(convertToIr.kt:150)
+	at org.jetbrains.kotlin.fir.pipeline.ConvertToIrKt.convertToIrAndActualize(convertToIr.kt:115)
+	at org.jetbrains.kotlin.fir.pipeline.ConvertToIrKt.convertToIrAndActualize$default(convertToIr.kt:88)
+	at org.jetbrains.kotlin.cli.jvm.compiler.legacy.pipeline.JvmCompilerPipelineKt.convertToIrAndActualizeForJvm(jvmCompilerPipeline.kt:100)
+	at org.jetbrains.kotlin.cli.pipeline.jvm.JvmFir2IrPipelinePhase.executePhase(JvmFir2IrPipelinePhase.kt:30)
+	at org.jetbrains.kotlin.cli.pipeline.jvm.JvmFir2IrPipelinePhase.executePhase(JvmFir2IrPipelinePhase.kt:25)
+	at org.jetbrains.kotlin.cli.pipeline.jvm.JvmFir2IrPipelinePhase.executePhase(JvmFir2IrPipelinePhase.kt:19)
+	at org.jetbrains.kotlin.cli.pipeline.PipelinePhase.phaseBody(PipelinePhase.kt:68)
+	at org.jetbrains.kotlin.cli.pipeline.PipelinePhase.phaseBody(PipelinePhase.kt:58)
+	at org.jetbrains.kotlin.config.phaser.NamedCompilerPhase.invoke(CompilerPhase.kt:102)
+	at org.jetbrains.kotlin.backend.common.phaser.CompositePhase.invoke(PhaseBuilders.kt:22)
+	at org.jetbrains.kotlin.config.phaser.CompilerPhaseKt.invokeToplevel(CompilerPhase.kt:53)
+	at org.jetbrains.kotlin.cli.pipeline.AbstractCliPipeline.runPhasedPipeline(AbstractCliPipeline.kt:109)
+	at org.jetbrains.kotlin.cli.pipeline.AbstractCliPipeline.execute(AbstractCliPipeline.kt:68)
+	at org.jetbrains.kotlin.cli.jvm.K2JVMCompiler.doExecutePhased(K2JVMCompiler.kt:51)
+	at org.jetbrains.kotlin.cli.jvm.K2JVMCompiler.doExecutePhased(K2JVMCompiler.kt:42)
+	at org.jetbrains.kotlin.cli.common.CLICompiler.execImpl(CLICompiler.kt:89)
+	at org.jetbrains.kotlin.cli.common.CLICompiler.exec(CLICompiler.kt:359)
+	at org.jetbrains.kotlin.incremental.IncrementalJvmCompilerRunnerBase.runCompiler(IncrementalJvmCompilerRunnerBase.kt:178)
+	at org.jetbrains.kotlin.incremental.IncrementalJvmCompilerRunnerBase.runCompiler(IncrementalJvmCompilerRunnerBase.kt:40)
+	at org.jetbrains.kotlin.incremental.IncrementalCompilerRunner.doCompile(IncrementalCompilerRunner.kt:504)
+	at org.jetbrains.kotlin.incremental.IncrementalCompilerRunner.compileImpl(IncrementalCompilerRunner.kt:418)
+	at org.jetbrains.kotlin.incremental.IncrementalCompilerRunner.compileNonIncrementally(IncrementalCompilerRunner.kt:301)
+	at org.jetbrains.kotlin.incremental.IncrementalCompilerRunner.compile(IncrementalCompilerRunner.kt:128)
+	at org.jetbrains.kotlin.daemon.CompileServiceImplBase.execIncrementalCompiler(CompileServiceImpl.kt:684)
+	at org.jetbrains.kotlin.daemon.CompileServiceImplBase.access$execIncrementalCompiler(CompileServiceImpl.kt:94)
+	at org.jetbrains.kotlin.daemon.CompileServiceImpl.compile(CompileServiceImpl.kt:1810)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(Unknown Source)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Unknown Source)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.rmi/sun.rmi.transport.Transport.serviceCall(Unknown Source)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(Unknown Source)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(Unknown Source)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: org.jetbrains.kotlin.backend.common.CompilationException: Back-end: Please report this problem https://kotl.in/issue
+/home/michael/AndroidProjects/MyProjects/Compose/DoCDatasets/app/src/main/java/com/michaelrmossman/docdatasets/state/DataSetListState.kt:9:1
+Problem with `@Serializable
+@StabilityInferred(parameters = 0)
+data class DataSetListState {
+  constructor(canDLMore: Boolean = false, dataset: DataSetEntity? = null, datasets: List<DataSetEntity> = emptyList<DataSetEntity>(), dataType: DataTypeKt = DataTypeKt(), dataTypes: List<DataTypeKt> = emptyList<DataTypeKt>(), feature: Feature? = null, features: List<Feature> = emptyList<Feature>(), featTotal: Int = 0, filter: Any? = null, filterBy: List<Any?> = emptyList<Any?>(), message: String? = null, numResult: Int = 0, uiState: DataSetUiState = Loading) /* primary */ {
+    super/*Any*/()
+    /* <init>() */
+
+  }
+
+  val canDLMore: Boolean
+    field = canDLMore
+    get
+
+  val dataset: DataSetEntity?
+    field = dataset
+    get
+
+  val datasets: List<DataSetEntity>
+    field = datasets
+    get
+
+  val dataType: DataTypeKt
+    field = dataType
+    get
+
+  val dataTypes: List<DataTypeKt>
+    field = dataTypes
+    get
+
+  val feature: Feature?
+    field = feature
+    get
+
+  val features: List<Feature>
+    field = features
+    get
+
+  val featTotal: Int
+    field = featTotal
+    get
+
+  @Contextual
+  val filter: Any?
+    field = filter
+    get
+
+  @Contextual
+  val filterBy: List<Any?>
+    field = filterBy
+    get
+
+  val message: String?
+    field = message
+    get
+
+  val numResult: Int
+    field = numResult
+    get
+
+  val uiState: DataSetUiState
+    field = uiState
+    get
+
+  companion object Companion {
+    private constructor() /* primary */ {
+      super/*Any*/()
+      /* <init>() */
+
+    }
+
+    fun serializer(): KSerializer<DataSetListState>
+
+    /* fake */ override operator fun equals(other: Any?): Boolean
+
+    /* fake */ override fun hashCode(): Int
+
+    /* fake */ override fun toString(): String
+
+  }
+
+  @Deprecated(message = "This synthesized declaration should not be used directly", level = DeprecationLevel.HIDDEN)
+  @StabilityInferred(parameters = 0)
+  object $serializer : GeneratedSerializer<DataSetListState> {
+    private constructor() /* primary */ {
+      super/*Any*/()
+      /* <init>() */
+
+    }
+
+    override fun serialize(encoder: Encoder, value: DataSetListState)
+
+    override fun deserialize(decoder: Decoder): DataSetListState
+
+    override val descriptor: SerialDescriptor
+      override get
+
+    override fun childSerializers(): Array<KSerializer<*>>
+
+    /* fake */ override fun typeParametersSerializers(): Array<KSerializer<*>>
+
+    /* fake */ override operator fun equals(other: Any?): Boolean
+
+    /* fake */ override fun hashCode(): Int
+
+    /* fake */ override fun toString(): String
+
+    /* static final field */ val $stable: Int = 8
+  }
+
+  operator fun component1(): Boolean {
+    return <this>.#canDLMore
+  }
+
+  operator fun component2(): DataSetEntity? {
+    return <this>.#dataset
+  }
+
+  operator fun component3(): List<DataSetEntity> {
+    return <this>.#datasets
+  }
+
+  operator fun component4(): DataTypeKt {
+    return <this>.#dataType
+  }
+
+  operator fun component5(): List<DataTypeKt> {
+    return <this>.#dataTypes
+  }
+
+  operator fun component6(): Feature? {
+    return <this>.#feature
+  }
+
+  operator fun component7(): List<Feature> {
+    return <this>.#features
+  }
+
+  operator fun component8(): Int {
+    return <this>.#featTotal
+  }
+
+  operator fun component9(): Any? {
+    return <this>.#filter
+  }
+
+  operator fun component10(): List<Any?> {
+    return <this>.#filterBy
+  }
+
+  operator fun component11(): String? {
+    return <this>.#message
+  }
+
+  operator fun component12(): Int {
+    return <this>.#numResult
+  }
+
+  operator fun component13(): DataSetUiState {
+    return <this>.#uiState
+  }
+
+  fun copy(canDLMore: Boolean = <this>.#canDLMore, dataset: DataSetEntity? = <this>.#dataset, datasets: List<DataSetEntity> = <this>.#datasets, dataType: DataTypeKt = <this>.#dataType, dataTypes: List<DataTypeKt> = <this>.#dataTypes, feature: Feature? = <this>.#feature, features: List<Feature> = <this>.#features, featTotal: Int = <this>.#featTotal, filter: Any? = <this>.#filter, filterBy: List<Any?> = <this>.#filterBy, message: String? = <this>.#message, numResult: Int = <this>.#numResult, uiState: DataSetUiState = <this>.#uiState): DataSetListState {
+    return DataSetListState(canDLMore = canDLMore, dataset = dataset, datasets = datasets, dataType = dataType, dataTypes = dataTypes, feature = feature, features = features, featTotal = featTotal, filter = filter, filterBy = filterBy, message = message, numResult = numResult, uiState = uiState)
+  }
+
+  override fun toString(): String {
+    return "DataSetListState(" + "canDLMore=" + <this>.#canDLMore + ", " + "dataset=" + <this>.#dataset + ", " + "datasets=" + <this>.#datasets + ", " + "dataType=" + <this>.#dataType + ", " + "dataTypes=" + <this>.#dataTypes + ", " + "feature=" + <this>.#feature + ", " + "features=" + <this>.#features + ", " + "featTotal=" + <this>.#featTotal + ", " + "filter=" + <this>.#filter + ", " + "filterBy=" + <this>.#filterBy + ", " + "message=" + <this>.#message + ", " + "numResult=" + <this>.#numResult + ", " + "uiState=" + <this>.#uiState + ")"
+  }
+
+  override fun hashCode(): Int {
+    var result: Int = <this>.#canDLMore.hashCode()
+    result = result.times(other = 31).plus(other = when {
+      EQEQ(arg0 = <this>.#dataset, arg1 = null) -> 0
+      else -> <this>.#dataset.hashCode()
+    })
+    result = result.times(other = 31).plus(other = <this>.#datasets.hashCode())
+    result = result.times(other = 31).plus(other = <this>.#dataType.hashCode())
+    result = result.times(other = 31).plus(other = <this>.#dataTypes.hashCode())
+    result = result.times(other = 31).plus(other = when {
+      EQEQ(arg0 = <this>.#feature, arg1 = null) -> 0
+      else -> <this>.#feature.hashCode()
+    })
+    result = result.times(other = 31).plus(other = <this>.#features.hashCode())
+    result = result.times(other = 31).plus(other = <this>.#featTotal.hashCode())
+    result = result.times(other = 31).plus(other = when {
+      EQEQ(arg0 = <this>.#filter, arg1 = null) -> 0
+      else -> <this>.#filter.hashCode()
+    })
+    result = result.times(other = 31).plus(other = <this>.#filterBy.hashCode())
+    result = result.times(other = 31).plus(other = when {
+      EQEQ(arg0 = <this>.#message, arg1 = null) -> 0
+      else -> <this>.#message.hashCode()
+    })
+    result = result.times(other = 31).plus(other = <this>.#numResult.hashCode())
+    result = result.times(other = 31).plus(other = <this>.#uiState.hashCode())
+    return result
+  }
+
+  override operator fun equals(other: Any?): Boolean {
+    when {
+      EQEQEQ(arg0 = <this>, arg1 = other) -> return true
+    }
+    when {
+      other !is DataSetListState -> return false
+    }
+    val tmp0_other_with_cast: DataSetListState = other /*as DataSetListState */
+    when {
+      EQEQ(arg0 = <this>.#canDLMore, arg1 = tmp0_other_with_cast.#canDLMore).not() -> return false
+    }
+    when {
+      EQEQ(arg0 = <this>.#dataset, arg1 = tmp0_other_with_cast.#dataset).not() -> return false
+    }
+    when {
+      EQEQ(arg0 = <this>.#datasets, arg1 = tmp0_other_with_cast.#datasets).not() -> return false
+    }
+    when {
+      EQEQ(arg0 = <this>.#dataType, arg1 = tmp0_other_with_cast.#dataType).not() -> return false
+    }
+    when {
+      EQEQ(arg0 = <this>.#dataTypes, arg1 = tmp0_other_with_cast.#dataTypes).not() -> return false
+    }
+    when {
+      EQEQ(arg0 = <this>.#feature, arg1 = tmp0_other_with_cast.#feature).not() -> return false
+    }
+    when {
+      EQEQ(arg0 = <this>.#features, arg1 = tmp0_other_with_cast.#features).not() -> return false
+    }
+    when {
+      EQEQ(arg0 = <this>.#featTotal, arg1 = tmp0_other_with_cast.#featTotal).not() -> return false
+    }
+    when {
+      EQEQ(arg0 = <this>.#filter, arg1 = tmp0_other_with_cast.#filter).not() -> return false
+    }
+    when {
+      EQEQ(arg0 = <this>.#filterBy, arg1 = tmp0_other_with_cast.#filterBy).not() -> return false
+    }
+    when {
+      EQEQ(arg0 = <this>.#message, arg1 = tmp0_other_with_cast.#message).not() -> return false
+    }
+    when {
+      EQEQ(arg0 = <this>.#numResult, arg1 = tmp0_other_with_cast.#numResult).not() -> return false
+    }
+    when {
+      EQEQ(arg0 = <this>.#uiState, arg1 = tmp0_other_with_cast.#uiState).not() -> return false
+    }
+    return true
+  }
+
+  /* static final field */ val $stable: Int = 8
+  @JvmStatic
+  internal /* static */ fun write$Self(self: DataSetListState, output: CompositeEncoder, serialDesc: SerialDescriptor)
+
+  internal constructor(seen0: Int, canDLMore: Boolean, dataset: DataSetEntity?, datasets: List<DataSetEntity>?, dataType: DataTypeKt?, dataTypes: List<DataTypeKt>?, feature: Feature?, features: List<Feature>?, featTotal: Int, filter: Any?, filterBy: List<Any?>?, message: String?, numResult: Int, uiState: DataSetUiState?, serializationConstructorMarker: SerializationConstructorMarker?)
+
+}
+
+`
+Details: kotlinx.serialization compiler plugin internal error: unable to transform declaration, see cause
+	at org.jetbrains.kotlinx.serialization.compiler.extensions.SerializerClassLowering.lower(SerializationLoweringExtension.kt:233)
+	at org.jetbrains.kotlinx.serialization.compiler.extensions.SerializationLoweringExtensionKt$runOnFileInOrder$1.visitClass(SerializationLoweringExtension.kt:46)
+	at org.jetbrains.kotlin.ir.visitors.IrVisitorVoid.visitClass(IrVisitorVoid.kt:44)
+	at org.jetbrains.kotlin.ir.visitors.IrVisitorVoid.visitClass(IrVisitorVoid.kt:18)
+	at org.jetbrains.kotlin.ir.declarations.IrClass.accept(IrClass.kt:72)
+	at org.jetbrains.kotlin.ir.declarations.IrPackageFragment.acceptChildren(IrPackageFragment.kt:27)
+	at org.jetbrains.kotlin.ir.visitors.IrVisitorsKt.acceptChildrenVoid(IrVisitors.kt:23)
+	at org.jetbrains.kotlinx.serialization.compiler.extensions.SerializationLoweringExtensionKt$runOnFileInOrder$1.visitElement(SerializationLoweringExtension.kt:42)
+	at org.jetbrains.kotlin.ir.visitors.IrVisitorVoid.visitPackageFragment(IrVisitorVoid.kt:168)
+	at org.jetbrains.kotlin.ir.visitors.IrVisitorVoid.visitFile(IrVisitorVoid.kt:184)
+	at org.jetbrains.kotlin.ir.visitors.IrVisitorVoid.visitFile(IrVisitorVoid.kt:180)
+	at org.jetbrains.kotlin.ir.visitors.IrVisitorVoid.visitFile(IrVisitorVoid.kt:18)
+	at org.jetbrains.kotlin.ir.declarations.IrFile.accept(IrFile.kt:27)
+	at org.jetbrains.kotlin.ir.visitors.IrVisitorsKt.acceptVoid(IrVisitors.kt:11)
+	at org.jetbrains.kotlinx.serialization.compiler.extensions.SerializationLoweringExtensionKt.runOnFileInOrder(SerializationLoweringExtension.kt:40)
+	at org.jetbrains.kotlinx.serialization.compiler.extensions.SerializationLoweringExtension.generate(SerializationLoweringExtension.kt:197)
+	at org.jetbrains.kotlin.fir.pipeline.Fir2IrPipeline.applyIrGenerationExtensions(convertToIr.kt:571)
+	... 43 more
+Caused by: java.lang.IllegalStateException: Serializer for element of type kotlin.Any? has not been found
+	at org.jetbrains.kotlinx.serialization.compiler.backend.ir.SerializerSearchUtilKt.findTypeSerializerOrContext(SerializerSearchUtil.kt:85)
+	at org.jetbrains.kotlinx.serialization.compiler.backend.ir.BaseIrGenerator.createSerializerOnlyForClasses(BaseIrGenerator.kt:511)
+	at org.jetbrains.kotlinx.serialization.compiler.backend.ir.BaseIrGenerator.cacheableChildSerializerInstance(BaseIrGenerator.kt:479)
+	at org.jetbrains.kotlinx.serialization.compiler.backend.ir.BaseIrGenerator.createCachedChildSerializers(BaseIrGenerator.kt:465)
+	at org.jetbrains.kotlinx.serialization.compiler.backend.ir.SerializableIrGenerator.<init>(SerializableIrGenerator.kt:62)
+	at org.jetbrains.kotlinx.serialization.compiler.backend.ir.SerializableIrGenerator$Companion.generate(SerializableIrGenerator.kt:407)
+	at org.jetbrains.kotlinx.serialization.compiler.extensions.SerializerClassLowering.lower(SerializationLoweringExtension.kt:149)
+	... 59 more
+
+

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="filter_by_headers">
+        <item>@string/prop_restriction_1</item>
+        <item>@string/prop_office</item>
+        <item>@string/prop_cms_area</item>
+        <item>@string/prop_type</item>
+        <item>@string/prop_office</item>
+        <item>@string/prop_office</item>
+        <item>@string/prop_office</item>
+        <item>@string/prop_region</item>
+        <item>@string/prop_cms_area</item>
+        <item>@string/prop_operations_district</item>
+        <item>@string/prop_region</item>
+        <!-- MarineRes -->
+        <item>@string/prop_difficulty</item>
+        <item>@string/prop_difficulty</item>
+        <item>@string/prop_type</item>
+        <item>@string/region_name</item>
+        <!-- OpRegions -->
+        <item>@string/prop_section</item>
+        <item>@string/prop_sub_object_type</item>
+        <!-- Sanct -->
+        <item>@string/prop_sub_object_type</item>
+        <item>@string/prop_difficulty</item>
+        <item>@string/prop_difficulty</item>
+        <item>@string/prop_ecological_reg</item>
+<!-- EcoSys -->
+        <item>@string/prop_office</item>
+        <item>@string/prop_office</item>
+        <!-- Kea -->
+        <item>@string/prop_doc_region</item>
+        <item>@string/prop_office</item>
+        <item>@string/prop_permit_area</item>
+        <item>@string/prop_office</item>
+        <item>@string/prop_office</item>
+        <item>@string/prop_common_name</item>
+        <item>@string/prop_restriction_1</item>
+    </string-array>
+
+    <integer-array name="settings_num_results">
+        <item>100</item>
+        <item>200</item>
+        <item>500</item>
+    </integer-array>
+
+</resources>

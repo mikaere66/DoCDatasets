@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="card_corner_shape">8dp</dimen>
+    <dimen name="card_elevation">8dp</dimen>
+    <dimen name="card_horizontal_padding">6dp</dimen>
+
+    <dimen name="dialog_icons_padding">10dp</dimen>
+
+    <dimen name="font_size_error">14sp</dimen>
+
+    <dimen name="icon_size_giant">96dp</dimen>
+    <dimen name="icon_size_huge">72dp</dimen>
+    <dimen name="icon_size_large">48dp</dimen>
+    <dimen name="icon_size_small">24dp</dimen>
+
+    <dimen name="loading_anim_large">192dp</dimen>
+    <dimen name="loading_anim_small">48dp</dimen>
+
+    <dimen name="item_image_size_min">140dp</dimen>
+
+    <dimen name="padding_horizontal">@dimen/padding_medium</dimen>
+    <dimen name="padding_list_item">@dimen/padding_micro</dimen>
+    <dimen name="padding_page_spacing">@dimen/padding_medium</dimen>
+    <dimen name="padding_vertical">@dimen/padding_small</dimen>
+
+       <dimen name="padding_mega">32dp</dimen>
+      <dimen name="padding_great">24dp</dimen>
+      <dimen name="padding_large">16dp</dimen>
+    <dimen name="padding_medium">12dp</dimen>
+      <dimen name="padding_small">8dp</dimen>
+       <dimen name="padding_mini">4dp</dimen>
+      <dimen name="padding_micro">2dp</dimen>
+        <dimen name="padding_nano">1dp</dimen>
+        <dimen name="padding_none">0dp</dimen>
+
+    <dimen name="spacing_vertical">@dimen/padding_small</dimen>
+
+    <dimen name="subtitle_font_size">16sp</dimen>
+
+</resources>

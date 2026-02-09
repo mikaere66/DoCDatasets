@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- <string name="prop_"></string> -->
+
+    <!-- Properties Common -->
+    <string name="prop_object_id">Object ID</string>
+    <string name="prop_shape_area">Shape Area</string>
+    <string name="prop_shape_length">Shape Length</string>
+
+    <string name="prop_name">Name</string>
+    <string name="prop_location">Location</string>
+    <!-- AATH Concessions -->
+    <string name="prop_block_type">Block Type</string>
+    <string name="prop_status">Status</string>
+    <string name="prop_block_name">Block Name</string>
+    <string name="prop_block_id">Block ID</string>
+    <string name="prop_location_id">Location ID</string>
+    <string name="prop_restriction_1">Restriction 1</string>
+    <string name="prop_restriction_2">Restriction 2</string>
+    <string name="prop_restriction_3">Restriction 3</string>
+    <string name="prop_created_date_editor_tracking">Create Date</string>
+    <string name="prop_last_updated_date_editor_track">Last Updated</string>
+    <string name="prop_global_id">Global ID</string>
+    <!-- CMS Vis Management -->
+    <string name="prop_pcl_date">PCL Date</string>
+    <string name="prop_cms_area">CMS Area</string>
+    <string name="prop_cms_publish_date">CMS Publish Date</string>
+    <string name="prop_ros_class">ROS Class</string>
+    <string name="prop_vmz_name">VMZ Name</string>
+    <!-- CMS Air Zones -->
+    <string name="prop_cms_air_zone">CMS Air Zone</string>
+    <!-- Covenant Areas -->
+    <string name="prop_napalis_id">NaPALIS ID</string>
+    <string name="prop_start_date">Start Date</string>
+    <string name="prop_end_date">End Date</string>
+    <string name="prop_type">Type</string>
+    <string name="prop_local_purpose">Local Purpose</string>
+    <string name="prop_government_purpose">Government Purpose</string>
+    <string name="prop_conservation_unit_num">Conservation Unit Number</string>
+    <string name="prop_vested">Vested</string>
+    <string name="prop_control_managed">Control Managed</string>
+    <string name="prop_recorded_area">Recorded Area</string>
+    <string name="prop_gis_area">GIS Area</string>
+    <string name="prop_gis_area_ha">GIS Area: Hectares</string>
+    <string name="prop_doc_fire_responsibility">DoC Fire Responsibility</string>
+    <!-- Distr Of (Species) -->
+    <string name="prop_rec_id">Rec ID</string>
+    <string name="prop_office">Office</string>
+    <string name="prop_shape_file_n">Shape File N</string>
+    <string name="prop_ref_elect_sh">Ref Elect Sh</string>
+    <string name="prop_scientific_name">Scientific Name</string>
+    <string name="prop_common_name">Common Name</string>
+    <string name="prop_observation">Observation</string>
+    <string name="prop_pa">PA</string>
+    <string name="prop_abundance">Abundance</string>
+    <string name="prop_abund_reliability">Abundance Reliability</string>
+    <string name="prop_abund_index">Abundance </string>
+    <string name="prop_abund_method">Abundance </string>
+    <string name="prop_abund_data_s">Abundance </string>
+    <string name="prop_abund_notes">Abundance </string>
+    <string name="prop_organisation">Organisation</string>
+    <string name="prop_pa_2014">PA 2014</string>
+    <!-- DoC Campsites -->
+    <string name="prop_place">Place</string>
+    <string name="prop_region">Region</string>
+    <string name="prop_introduction">Introduction</string>
+    <string name="prop_campsite_category">Campsite Category</string>
+    <string name="prop_number_of_powered_sites">Number of Powered Sites</string>
+    <string name="prop_number_of_unpowered_sites">Number of Unpowered Sites</string>
+    <string name="prop_bookable">Bookable</string>
+    <string name="prop_free">Free of Charge</string>
+    <string name="prop_facilities">Facilities</string>
+    <string name="prop_activities">Activities Allowed</string>
+    <string name="prop_dogs_allowed">Dogs Allowed</string>
+    <string name="prop_landscape">Landscape</string>
+    <string name="prop_access">Access</string>
+    <string name="prop_has_alerts">Has Alerts</string>
+    <!-- introductionThumbnail -->
+    <string name="prop_static_link">Static Link</string>
+    <string name="prop_x">X</string>
+    <string name="prop_y">Y</string>
+    <string name="prop_asset_id">Asset ID</string>
+    <string name="prop_date_loaded_to_gis">Date Loaded To GIS</string>
+    <!-- Ecological Districts -->
+    <string name="prop_ecological_code">Ecological Code</string>
+    <string name="prop_ecological_dist">Ecological District</string>
+    <string name="prop_ecological_reg">Ecological Region</string>
+    <!-- Freedom Camping -->
+    <string name="prop_site_category_type">Site Category Type</string>
+    <string name="prop_site_category_code">Site Category Code</string>
+    <string name="prop_condition_1">Condition 1</string>
+    <string name="prop_condition_2">Condition 2</string>
+    <string name="prop_condition_3">Condition 3</string>
+    <string name="prop_condition_4">Condition 4</string>
+    <string name="prop_action_date">Action Date</string>
+    <string name="prop_functional_location">Functional Location</string>
+    <string name="prop_address">Address</string>
+    <string name="prop_area_phone">Area Phone</string>
+    <string name="prop_notice_number">Notice Number</string>
+    <string name="prop_operations_region">Operations Region</string>
+    <string name="prop_operations_district">Operations District</string>
+    <!-- DoC Huts: nothing new -->
+    <!-- Marine Geospatial -->
+    <string name="prop_title">Title</string>
+    <string name="prop_theme">Theme</string>
+    <string name="prop_data_type">Data Type</string>
+    <string name="prop_data_subtype">Data Subtype</string>
+    <string name="prop_licence">Licence</string>
+    <string name="prop_issued">Issued</string>
+    <string name="prop_modified">Modified</string>
+    <string name="prop_publisher_name">Publisher_name</string>
+    <string name="prop_publisher_mbox">Publisher_mbox</string>
+    <string name="prop_contact_point">Contact_Point</string>
+    <string name="prop_contact_point_has_phone">Contact Point Has Phone</string>
+    <string name="prop_landing_page">Landing Page</string>
+    <string name="prop_can_data_be_released">Can Data Be Released</string>
+    <string name="prop_what_is_required_to_open">What is Required to Open</string>
+    <string name="prop_estimate_date_of_release">Estimate Date of Release</string>
+    <string name="prop_release_status">Release Status</string>
+    <string name="prop_update_frequency">Update Frequency</string>
+    <string name="prop_temporal">Temporal</string>
+    <string name="prop_spatial">Spatial</string>
+    <string name="prop_depth">Depth</string>
+    <string name="prop_distribution_0_download_url">Distribution 0 Download URL</string>
+    <string name="prop_distribution_0_title">Distribution 0 Title</string>
+    <string name="prop_distribution_0_description">Distribution 0 Description</string>
+    <string name="prop_distribution_0_format">Distribution 0 Format</string>
+    <string name="prop_distribution_0_size">Distribution 0 Size</string>
+    <string name="prop_distribution_1_download_url">Distribution 1 Download URL</string>
+    <string name="prop_distribution_1_title">Distribution 1 Title</string>
+    <string name="prop_distribution_1_description">Distribution 1 Description</string>
+    <string name="prop_distribution_1_format">Distribution 1 Format</string>
+    <string name="prop_distribution_1_size">Distribution 1 Size</string>
+    <string name="prop_distribution_2_download_url">Distribution 2 Download URL</string>
+    <string name="prop_distribution_2_title">Distribution 2 Title</string>
+    <string name="prop_distribution_2_description">Distribution 2 Description</string>
+    <string name="prop_distribution_2_format">Distribution 2 Format</string>
+    <string name="prop_distribution_2_size">Distribution 2 Size</string>
+    <string name="prop_distribution_3_download_url">Distribution 3 Download URL</string>
+    <string name="prop_distribution_3_title">Distribution 3 Title</string>
+    <string name="prop_distribution_3_description">Distribution 3 Description</string>
+    <string name="prop_distribution_3_format">Distribution 3 Format</string>
+    <string name="prop_distribution_3_size">Distribution 3 Size</string>
+    <!-- Marine Reserves -->
+    <string name="prop_legislation">Legislation</string>
+    <string name="prop_section">Section</string>
+    <!-- DoC MTB Locations -->
+    <string name="prop_difficulty">Difficulty</string>
+    <string name="prop_biking_time">Biking Time</string>
+    <string name="prop_mountain_biking_track_web_page">Mountain
+        Biking Track Web Page</string>
+    <!-- DoC MTB Routes: nothing new -->
+    <!-- DOC Offices: full name actually @ end of Json -->
+    <string name="prop_full_name_label">Full Name</string>
+    <string name="prop_acronym">Acronym</string>
+    <string name="prop_parent">Parent</string>
+    <string name="prop_physical_address_line_1">Physical Address Line 1</string>
+    <string name="prop_physical_address_line_2">Physical Address Line 2</string>
+    <string name="prop_physical_address_line_3">Physical Address Line 3</string>
+    <string name="prop_physical_address_line_4">Physical Address Line 4</string>
+    <string name="prop_postal_address_line_1">Postal Address Line 1</string>
+    <string name="prop_postal_address_line_2">Postal Address Line 2</string>
+    <string name="prop_postal_address_line_3">Postal Address Line 3</string>
+    <string name="prop_postal_address_line_4">Postal Address Line 4</string>
+    <string name="prop_phone_number">Phone Number</string>
+    <string name="prop_vpn">VPN</string>
+    <string name="prop_fax_number">Fax Number</string>
+    <string name="prop_fax_vpn">Fax VPN</string>
+    <string name="prop_manager_id">Manager ID</string>
+    <string name="prop_email">Email</string>
+    <string name="prop_opening_hour">Opening Hour</string>
+    <string name="prop_opening_minute">Opening Minute</string>
+    <string name="prop_closing_hour">Closing Hour</string>
+    <string name="prop_closing_minute">Closing Minute</string>
+    <string name="prop_modified_by">Modified By</string>
+    <string name="prop_date_modified">Date Modified</string>
+    <string name="prop_is_active">Is Active</string>
+    <string name="prop_code">Code</string>
+    <string name="prop_maori_name">Maori Name</string>
+    <string name="prop_northing">Northing</string>
+    <string name="prop_easting">Easting</string>
+    <string name="prop_town">Town</string>
+    <!-- Ops Districts -->
+    <string name="district_name">District name</string>
+    <string name="district_code">District code</string>
+    <string name="region_name">Region name</string>
+    <string name="region_code">Region code</string>
+    <!-- Ops Regions: nothing new -->
+    <!-- Pub Conserv Land -->
+    <string name="prop_overlays"></string>
+    <string name="prop_private_ownership"></string>
+    <string name="prop_classified"></string>
+    <!-- Rec Hunt Perm Areas -->
+    <string name="prop_created_date">Created Date</string>
+    <string name="prop_modified_date">Modified Date</string>
+    <string name="prop_conservancy">Conservancy</string>
+    <string name="prop_permit_area">Permit Area</string>
+    <string name="prop_hunt_block_name">Hunt Block Name</string>
+    <string name="prop_hunt_status">Hunt Status</string>
+    <string name="prop_date_conditions">Date Conditions</string>
+    <string name="prop_access_conditions">Access Conditions</string>
+    <string name="prop_dog_conditions">Dog Conditions</string>
+    <string name="prop_special_conditions">Special Conditions</string>
+    <string name="prop_hectares">Hectares</string>
+    <string name="prop_scale">Scale</string>
+    <!-- DOC Sanctuaries: nothing new -->
+    <!-- DOC Roads | Tracks -->
+    <string name="prop_tech_object_name">Tech Object Name</string>
+    <string name="prop_floc_id">Floc ID</string>
+    <string name="prop_equipment_id">Equipment ID</string>
+    <string name="prop_object_type">Object Type</string>
+    <string name="prop_object_type_key">Object Type Key</string>
+    <string name="prop_sub_object_type">SubObject Type</string>
+    <string name="prop_sub_object_type_key">SubObject Type Key</string>
+    <string name="prop_floc_cat">Floc Category</string>
+    <string name="prop_floc_cat_string">Floc Category String</string>
+    <string name="prop_equip_cat">Equip Category</string>
+    <string name="prop_equip_cat_string">Equip Category String</string>
+    <string name="prop_data_capture_accuracy">Data Capture Accuracy</string>
+    <string name="prop_data_capture_accuracy_string">Data Capture Accuracy String</string>
+    <string name="prop_gis_status">GIS Status</string>
+    <string name="prop_gis_status_string">GIS Status String</string>
+    <string name="prop_char_name_1">Char Name 1</string>
+    <string name="prop_char_value_1">Char Value 1</string>
+    <string name="prop_char_name_2">Char Name 2</string>
+    <string name="prop_char_value_2">Char Value 2</string>
+    <string name="prop_char_name_3">Char Name 3</string>
+    <string name="prop_char_value_3">Char Value 3</string>
+    <string name="prop_char_name_4">Char Name 4</string>
+    <string name="prop_char_value_4">Char Value 4</string>
+    <string name="prop_char_name_5">Char Name 5</string>
+    <string name="prop_char_value_5">Char Value 5</string>
+    <string name="prop_char_name_6">Char Name 6</string>
+    <string name="prop_char_value_6">Char Value 6</string>
+    <string name="prop_char_name_7">Char Name 7</string>
+    <string name="prop_char_value_7">Char Value 7</string>
+    <string name="prop_char_name_8">Char Name 8</string>
+    <string name="prop_char_value_8">Char Value 8</string>
+    <string name="prop_char_name_9">Char Name 9</string>
+    <string name="prop_char_value_9">Char Value 9</string>
+    <string name="prop_char_name_10">Char Name 10</string>
+    <string name="prop_char_value_10">Char Value 10</string>
+    <string name="prop_char_name_11">Char Name 11</string>
+    <string name="prop_char_value_11">Char Value 11</string>
+    <!-- Walk Tramp Exp Locations -->
+    <string name="prop_completion_time"></string>
+    <string name="prop_walking_and_tramping_web_page">Walking
+        and Tramping Web Page</string>
+    <!-- Walk Tramp Exp Routes: nothing new -->
+    <!-- Ecosystem Management -->
+    <string name="prop_prescription_id">Prescription ID</string>
+    <string name="prop_prescription_name">Prescription Name</string>
+    <string name="prop_description">Description</string>
+    <string name="prop_rank">Rank</string>
+    <!-- Kea Habitat -->
+    <string name="prop_kea_presence">Kea Presence</string>
+    <string name="prop_source_data">Source Data</string>
+    <string name="prop_edit">Edited</string>
+    <string name="prop_edit_notes">Edit Notes</string>
+    <string name="prop_scrounge_influenced">Scrounge Influenced</string>
+    <!-- NonMigratory Freshwater Fish Dist -->
+    <string name="prop_location_number">Location Number</string>
+    <string name="prop_species">Species</string>
+    <string name="prop_vernacular">Vernacular</string>
+    <string name="prop_catchment">Catchment</string>
+    <string name="prop_location_doc_gazetted">Location Gazetted</string>
+    <string name="prop_location_doc_name">Location DOC Name</string>
+    <string name="prop_doc_region">DOC Region</string>
+    <string name="prop_doc_district">DOC District</string>
+    <string name="prop_regional_Council">Regional Council</string>
+    <string name="prop_district_Council">District Council</string>
+    <string name="prop_spatial_order">Spatial Order</string>
+    <string name="prop_updated">Updated</string>
+    <string name="prop_perimeter">Perimeter</string>
+    <!-- Threatened Invertebrates -->
+    <string name="prop_umbrella_category">Umbrella Category</string>
+    <string name="prop_threat_class">Threat Class</string>
+    <string name="prop_locality">Locality</string>
+    <string name="prop_number">Number</string>
+    <string name="prop_habitat">Habitat</string>
+    <string name="prop_original_ref">Original Reference</string>
+    <string name="prop_data_source">Data Source</string>
+    <string name="prop_num_of_indiv">Number of Individuals</string>
+    <string name="prop_certainty_of_loc">Certainty of Location</string>
+    <string name="prop_date">Date</string>
+    <string name="prop_threat_assess_notes">Threat Assessment Notes</string>
+    <string name="prop_former_name">Former Name</string>
+    <string name="prop_family">Family</string>
+    <string name="prop_group_a">Group A</string>
+    <string name="prop_comments">Comments</string>
+    <string name="prop_bmi_id">BMI ID</string>
+    <!-- WARO Consessions: nothing new -->
+
+</resources>
