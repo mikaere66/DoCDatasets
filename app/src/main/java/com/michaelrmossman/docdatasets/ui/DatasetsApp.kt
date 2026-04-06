@@ -7,7 +7,6 @@ import androidx.compose.material3.adaptive.ExperimentalMaterial3AdaptiveApi
 import androidx.compose.material3.adaptive.currentWindowAdaptiveInfo
 import androidx.compose.material3.adaptive.layout.calculatePaneScaffoldDirective
 import androidx.compose.material3.adaptive.navigation3.rememberListDetailSceneStrategy
-import androidx.compose.material3.windowsizeclass.WindowHeightSizeClass
 import androidx.compose.material3.windowsizeclass.WindowWidthSizeClass
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.remember
@@ -20,20 +19,20 @@ import androidx.navigation3.runtime.entryProvider
 import androidx.navigation3.runtime.rememberSaveableStateHolderNavEntryDecorator
 import androidx.navigation3.ui.NavDisplay
 import com.michaelrmossman.docdatasets.navigation.CurrentScreen
-import com.michaelrmossman.docdatasets.ui.datasets.DatasetDetailsScreen
+import com.michaelrmossman.docdatasets.ui.datasets.DataSetDetailsScreen
 import com.michaelrmossman.docdatasets.ui.datasets.DataSetListScreen
-import com.michaelrmossman.docdatasets.ui.maps.DataSetMapScreen
 import com.michaelrmossman.docdatasets.ui.datasets.DataSetViewModel
 import com.michaelrmossman.docdatasets.ui.datatypes.DataTypeListScreen
 import com.michaelrmossman.docdatasets.ui.features.FeatureDetailsScreen
 import com.michaelrmossman.docdatasets.ui.features.FeatureListScreen
+import com.michaelrmossman.docdatasets.ui.maps.DataSetMapScreen
 import com.michaelrmossman.docdatasets.ui.settings.SettingScreen
 
 @OptIn(ExperimentalMaterial3AdaptiveApi::class)
 @Composable
 fun DatasetsApp(
     windowWidthSize: WindowWidthSizeClass,
-    windowHeightSize: WindowHeightSizeClass
+    // windowHeightSize: WindowHeightSizeClass
 ) {
     val mainViewModel: MainViewModel = viewModel()
 
@@ -64,7 +63,7 @@ fun DatasetsApp(
             /* Feature screens called directly from DataSetList have
                viewModel scoped to that screen, to fix lazyListState */
 
-            /* Refer note in MainViewModel re mainViewModel.pop() */
+            /* Refer note in MainViewModel re mainViewModel.home() */
 
             entry<CurrentScreen.AppSettings> {
                 SettingScreen(
@@ -73,7 +72,7 @@ fun DatasetsApp(
             }
 
             entry<CurrentScreen.DatasetDetails> { currentScreen ->
-                DatasetDetailsScreen(
+                DataSetDetailsScreen(
                     dataset = currentScreen.dataset,
                     datasetViewModel = viewModel(
                         factory = DataSetViewModel.Factory(

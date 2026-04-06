@@ -24,7 +24,7 @@ import com.michaelrmossman.docdatasets.ui.components.TwoLineAppBar
 import com.michaelrmossman.docdatasets.ui.features.FeatureItemPage
 
 @Composable
-fun DatasetDetailsScreen(
+fun DataSetDetailsScreen(
     dataset: DataSetEntity,
     // datasetListState: DataSetListState,
     datasetViewModel: DataSetViewModel,
