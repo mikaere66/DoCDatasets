@@ -31,8 +31,7 @@ import com.michaelrmossman.docdatasets.ui.settings.SettingScreen
 @OptIn(ExperimentalMaterial3AdaptiveApi::class)
 @Composable
 fun DatasetsApp(
-    windowWidthSize: WindowWidthSizeClass,
-    // windowHeightSize: WindowHeightSizeClass
+    windowWidthSize: WindowWidthSizeClass
 ) {
     val mainViewModel: MainViewModel = viewModel()
 

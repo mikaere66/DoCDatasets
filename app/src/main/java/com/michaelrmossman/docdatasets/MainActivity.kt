@@ -44,8 +44,7 @@ class MainActivity : ComponentActivity() {
                         this@MainActivity
                     )
                     DatasetsApp(
-                        windowWidthSize = windowSize.widthSizeClass,
-                        // windowHeightSize = windowSize.heightSizeClass
+                        windowWidthSize = windowSize.widthSizeClass
                     )
                 }
             }
